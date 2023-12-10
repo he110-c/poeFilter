@@ -1,0 +1,2 @@
+爪
+Class:"One Hand Swords",BaseType:"Charan's Sword",
