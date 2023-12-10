@@ -36,6 +36,63 @@ class Info:
         string = "Show\n  Class " + self.__Class
         pass
 
+
+class OneHandedWeapons:
+    '单手武器'
+
+    def __init__(self):
+        pass
+
+
+class TwoHandedWeapons:
+    '双手武器'
+
+    def __init__(self):
+        pass
+
+
+class OffHand:
+    '副手武器'
+
+    def __init__(self):
+        pass
+
+
+class Armour:
+    '护甲'
+
+    def __init__(self):
+        pass
+
+
+class Jewellery:
+    '饰品'
+
+    def __init__(self):
+        pass
+
+
+class Jewels:
+    '珠宝'
+
+    def __init__(self):
+        pass
+
+
+class Flasks:
+    '药剂'
+
+    def __init__(self):
+        pass
+
+
+class Other:
+    '杂项'
+
+    def __init__(self):
+        pass
+
+
 class Map:
     '地图类'
 
@@ -50,7 +107,27 @@ class Map:
         '四守卫地图、征服者地图、裂界守卫地图、瓦尔密殿、意境地图、传奇地图、T1456、红图、黄图、白图'
         pass
 
-#class                 
+
+class Gems:
+    '技能石'
+
+    def __init__(self):
+        pass
+
+
+class Currency:
+    '通货'
+
+    def __init__(self):
+        pass
+
+
+class Heist:
+    '夺宝'
+
+    def __init__(self):
+        pass
+
 
 if __name__ == "__main__":
     pass
