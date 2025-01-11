@@ -1,6 +1,57 @@
 #type#Class#BaseType#value#note#
-#==================地图项，value:1最高，5最低==================
+#value:0属于最高级物品，其他由高到底分为1-5
+#==================地图项==================
 地图#Waystones#Waystone (Tier 16)#1#高级地图#
-地图#Waystones#Waystone (Tier 15) Waystone (Tier 14) Waystone (Tier 13) Waystone (Tier 12) Waystone (Tier 11)#1#红图#
-#地图#Waystones#Waystone (Tier 1)#1#黄图#
-#地图#Waystones#Waystone (Tier 16)#1#白图#
+地图#Waystones#Waystone (Tier 15) Waystone (Tier 14) Waystone (Tier 13) Waystone (Tier 12) Waystone (Tier 11)#3#红图#
+地图#Waystones#Waystone (Tier 6) Waystone (Tier 7) Waystone (Tier 8) Waystone (Tier 9) Waystone (Tier 10)#4#黄图#
+地图#Waystones#Waystone (Tier 1) Waystone (Tier 2) Waystone (Tier 3) Waystone (Tier 4) Waystone (Tier 5)#5#白图#
+#==================可堆叠通货项==================
+通货#Stackable Currency#Mirror of Kalandra#0#卡兰德的魔镜#
+通货#Stackable Currency#Perfect Jeweller's Orb#1#完美工匠石#
+通货#Stackable Currency#Divine Orb#1#神圣石#
+通货#Stackable Currency#Greater Jeweller's Orb#3#高级工匠石#
+通货#Stackable Currency#Blacksmith's Whetstone#4#磨刀石#
+通货#Stackable Currency#Arcanist's Etcher#4#磨刀石#
+通货#Stackable Currency#Scroll of Wisdom#5#知识卷轴#
+通货#Stackable Currency#Chaos Orb#3#混沌石#
+通货#Stackable Currency#Armourer's Scrap#4#护甲片#
+通货#Stackable Currency#Orb of Alchemy#3#点金石#
+通货#Stackable Currency#Orb of Chance#2#机会石#
+通货#Stackable Currency#Orb of Transmutation#4#蜕变石#
+通货#Stackable Currency#Exalted Orb#3#崇高石#
+通货#Stackable Currency#Regal Orb#3#富豪石#
+通货#Stackable Currency#Orb of Augmentation#4#增幅石#
+通货#Stackable Currency#Glassblower's Bauble#3#玻璃弹珠#
+通货#Stackable Currency#Gemcutter's Prism#3#宝石匠的棱镜#
+通货#Stackable Currency#Lesser Jeweller's Orb#4#工匠石#
+通货#Stackable Currency#Artificer's Orb#4#护甲片#
+通货#Stackable Currency#Transmutation Shard#5#蜕变石碎片#
+通货#Stackable Currency#Alchemy Shard#5#点金石碎片#
+通货#Stackable Currency#Chance Shard#5#机会石碎片#
+通货#Stackable Currency#Albino Rhoa Feather#2#白化的羽毛#
+通货#Stackable Currency#Vaal Orb#3#瓦尔宝珠#
+通货#Stackable Currency#Orb of Annulment#2#剥离石#
+通货#Stackable Currency#Regal Shard#5#富豪石碎片#
+通货#Stackable Currency#Artificer's Shard#5#护甲碎片#
+通货#Stackable Currency#Exotic Coinage#3#异域铸币#
+通货#Stackable Currency#Broken Circle Artifact#3#圣域通货#
+通货#Stackable Currency#Black Scythe Artifact#3#圣域通货#
+通货#Stackable Currency#Order Artifact#3#圣域通货#
+通货#Stackable Currency#Sun Artifact#3#圣域通货#
+通货#Stackable Currency#Gold##金币#
+通货#Stackable Currency#Bronze Key#3#铜钥匙#
+通货#Stackable Currency#Silver Key#3#银钥匙#
+通货#Stackable Currency#Gold Key#3#金钥匙#
+通货#Stackable Currency#Essence of the Body Essence of the Mind Essence of Enhancement Essence of Torment Essence of Flames Essence of Ice Essence of Electricity Essence of Ruin Essence of Battle Essence of Sorcery Essence of Haste Essence of the Infinite#3#低级精华#
+通货#Stackable Currency#Greater Essence of the Body Greater Essence of the Mind Greater Essence of Enhancement Greater Essence of Torment Greater Essence of Flames Greater Essence of Ice Greater Essence of Electricity Greater Essence of Ruin Greater Essence of Battle Greater Essence of Sorcery Greater Essence of Haste Greater Essence of the Infinite#2#高级精华#
+通货#Stackable Currency#Distilled Despair Distille高级精华d Disgust Distilled Envy Distilled Fear Distilled Greed Distilled Guilt Distilled Ire Distilled Isolation Distilled Paranoia Distilled Suffering#3#圣油#
+通货#Stackable Currency#Breach Splinter#3#裂隙碎片#
+通货#Stackable Currency#Simulacrum Splinter#3#梦魇碎片#
+通货#Stackable Currency#Flesh Catalyst Neural Catalyst Carapace Catalyst Uul-Netol's Catalyst Xoph's Catalyst Tul's Catalyst Esh's Catalyst Chayula's Catalyst Reaver Catalyst Sibilant Catalyst Skittering Catalyst Adaptive Catalyst#3#催化剂#
+#==================珠宝项==================
+#==================药剂项，传奇药剂归入药剂类处理==================
+#==================技能石项==================
+技能石##Uncut Skill Gem##主动技能石#
+技能石##Uncut Support Gem##辅助技能石#
+技能石##Uncut Spirit Gem##精魂技能石#
+#==================装备项==================
