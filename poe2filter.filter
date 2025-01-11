@@ -1,0 +1,844 @@
+#######################################################
+##### Generated with poe2filter.com
+#######################################################
+
+#######################################################
+##### Custom & Cosmetic Rules
+#######################################################
+
+Show
+  Class == "Stackable Currency"
+  BaseType == "Mirror of Kalandra" "Perfect Jeweller's Orb" "Divine Orb" "Greater Jeweller's Orb"
+  PlayAlertSound 6 300
+  Continue
+
+Show
+  Class == "Stackable Currency"
+  BaseType == "Orb of Chance" "Orb of Annulment" "Chaos Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Exalted Orb" "Lesser Jeweller's Orb"
+  PlayAlertSound 2 200
+  Continue
+
+Show
+  Class == "Expedition Logbooks"
+  PlayAlertSound 2 200
+  Continue
+
+#######################################################
+##### Uniques & Chance Bases Highlights
+#######################################################
+
+Show
+  Rarity Unique
+  PlayEffect Brown
+  MinimapIcon 2 Brown Kite
+
+Show
+  BaseType == "Sapphire Ring" "Heavy Belt" "Stellar Amulet"
+  Rarity == Normal
+  PlayEffect Brown
+  MinimapIcon 2 Brown Kite
+
+Show
+  BaseType == "Emerald Ring" "Topaz Ring" "Amethyst Ring" "Pearl Ring" "Amber Amulet" "Jade Amulet" "Solar Amulet" "Gold Amulet"
+  Rarity == Normal
+
+#######################################################
+##### Life Flasks and Charms Filters
+#######################################################
+
+Hide
+  Class == "Life Flasks"
+  Rarity <= Magic
+
+Hide
+  Class == "Mana Flasks"
+  Rarity <= Magic
+
+Show
+  Class == "Charms"
+  BaseType == "Thawing Charm" "Amethyst Charm" "Golden Charm"
+  Quality >= 1
+
+Hide
+  Class == "Charms"
+  Rarity <= Magic
+
+#######################################################
+##### Currency Filters
+#######################################################
+
+Hide
+  Class == "Stackable Currency"
+  BaseType == "Scroll of Wisdom"
+
+Show
+  Class == "Stackable Currency"
+  BaseType == "Gold"
+  StackSize >= 5000
+  PlayEffect Yellow
+  MinimapIcon 2 Yellow Circle
+
+Show
+  Class == "Stackable Currency"
+  BaseType == "Gold"
+  StackSize >= 1000
+  PlayEffect White
+  MinimapIcon 2 White Circle
+
+Hide
+  Class == "Stackable Currency"
+  BaseType == "Gold"
+  StackSize < 50
+
+Hide
+  Class == "Stackable Currency"
+  BaseType == "Transmutation Shard" "Artificer's Shard"
+
+#######################################################
+##### Jewellery Filters
+#######################################################
+
+Show
+  Class Rings
+  BaseType == "Breach Ring"
+  Rarity >= Normal
+  PlayEffect Orange
+  MinimapIcon 2 Orange Circle
+
+Show
+  Class == "Jewels"
+  Rarity >= Normal
+  PlayEffect White
+  MinimapIcon 2 White Circle
+
+Show
+  Class == "Amulets" "Rings" "Belts"
+  Rarity Rare
+  PlayEffect Yellow
+  MinimapIcon 2 Yellow Kite
+
+Show
+  Class == "Amulets"
+  BaseType == "Gold Amulet" "Stellar Amulet"
+
+Hide
+  Class == "Amulets"
+  Rarity <= Normal
+
+Show
+  Class == "Rings"
+  BaseType == "Gold Ring" "Prismatic Ring" "Amethyst Ring"
+
+Hide
+  Class == "Rings"
+  Rarity <= Normal
+
+Show
+  Class == "Belts"
+  BaseType == "Golden Obi" "Utility Belt"
+
+Hide
+  Class == "Belts"
+  Rarity <= Normal
+
+#######################################################
+##### Gear Filter Exceptions
+#######################################################
+
+Show
+  Sockets 2
+  MinimapIcon 2 White Kite
+
+Show
+  Sockets 3
+  MinimapIcon 2 Yellow Kite
+
+Show
+  Class == "Bows" "Crossbows" "Foci" "One Hand Maces" "Quarterstaves" "Quivers" "Two Hand Maces"
+  Quality >= 1
+
+Show
+  Class == "Sceptres" "Staves" "Wands"
+  Quality >= 1
+
+Show
+  Class == "Body Armours" "Helmets" "Gloves" "Boots" "Shields"
+  Quality >= 1
+
+#######################################################
+##### Weapon Type Exceptions
+#######################################################
+
+#######################################################
+##### Armour Type Exceptions
+#######################################################
+
+#######################################################
+##### Gear Filters
+#######################################################
+
+Hide
+  Class == "Body Armours" "Boots" "Gloves" "Helmets" "Bows" "Crossbows" "Foci" "One Hand Maces" "Quivers" "Quarterstaves" "Sceptres" "Shields" "Staves" "Two Hand Maces" "Wands"
+  Rarity <= Magic
+
+#######################################################
+##### Dynamic waystones
+#######################################################
+
+#######################################################
+##### Static waystones
+#######################################################
+
+Show
+  BaseType "Waystone"
+  WaystoneTier > 12
+  PlayEffect Brown
+  MinimapIcon 2 Brown Diamond
+
+Show
+  BaseType "Waystone"
+  WaystoneTier > 8
+  PlayEffect Orange
+  MinimapIcon 2 Orange Diamond
+
+Show
+  BaseType "Waystone"
+  WaystoneTier > 4
+  PlayEffect Yellow
+  MinimapIcon 2 Yellow Diamond
+
+Show
+  BaseType "Waystone"
+  WaystoneTier >= 1
+  PlayEffect White
+  MinimapIcon 2 White Diamond
+
+#######################################################
+##### Dynamic skill gems
+#######################################################
+
+#######################################################
+##### Trial
+#######################################################
+
+Show
+  Class == "Relics"
+  PlayEffect White
+  MinimapIcon 2 White Circle
+
+Show
+  Class == "Stackable Currency"
+  BaseType == "Gold Key"
+  PlayEffect Orange
+  MinimapIcon 2 Orange Circle
+
+Show
+  Class == "Stackable Currency"
+  BaseType == "Silver Key"
+  PlayEffect Yellow
+  MinimapIcon 2 Yellow Circle
+
+Show
+  Class == "Stackable Currency"
+  BaseType == "Bronze Key"
+  PlayEffect White
+  MinimapIcon 2 White Circle
+
+#######################################################
+##### Fragments
+#######################################################
+
+Show
+  BaseType == "An Audience with the King"
+  PlayEffect Purple
+  MinimapIcon 0 Purple Diamond
+
+Show
+  BaseType == "Deadly Fate" "Cowardly Fate" "Victorious Fate"
+  PlayEffect Brown
+  MinimapIcon 2 Brown Diamond
+
+Show
+  BaseType "Fragment" # Specific fragments can't seem to be added; just adding this catch-all
+  PlayEffect Brown
+  MinimapIcon 2 Brown Diamond
+
+#######################################################
+##### Tiered Currency
+#######################################################
+
+#######################################################
+##### Currency
+#######################################################
+
+Show
+  Class == "Stackable Currency"
+  BaseType == "Mirror of Kalandra" "Perfect Jeweller's Orb" "Divine Orb"
+  Rarity >= "Normal"
+  PlayEffect Purple 
+  MinimapIcon 0 Purple Circle
+
+Show
+  Class == "Stackable Currency"
+  BaseType == "Greater Jeweller's Orb"
+  Rarity >= "Normal"
+  PlayEffect Brown 
+  MinimapIcon 1 Brown Circle
+
+Show
+  Class == "Stackable Currency"
+  BaseType == "Orb of Chance" "Orb of Annulment"
+  Rarity >= "Normal"
+  PlayEffect Orange 
+  MinimapIcon 2 Orange Circle
+
+Show
+  Class == "Stackable Currency"
+  BaseType == "Chaos Orb" "Exalted Orb" "Glassblower's Bauble" "Gemcutter's Prism" "Lesser Jeweller's Orb"
+  Rarity >= "Normal"
+  PlayEffect Yellow 
+  MinimapIcon 2 Yellow Circle
+
+Show
+  Class == "Stackable Currency"
+  BaseType == "Blacksmith's Whetstone" "Arcanist's Etcher" "Armourer's Scrap" "Orb of Alchemy" "Regal Orb" "Artificer's Orb" "Vaal Orb"
+  Rarity >= "Normal"
+  PlayEffect White 
+  MinimapIcon 2 White Circle
+
+#######################################################
+##### Delirium
+#######################################################
+
+Show
+  Class == "Stackable Currency"
+  BaseType == "Distilled Isolation" "Distilled Suffering"
+  Rarity >= "Normal"
+  PlayEffect Purple 
+  MinimapIcon 0 Purple Circle
+
+Show
+  Class == "Stackable Currency"
+  BaseType == "Distilled Fear"
+  Rarity >= "Normal"
+  PlayEffect Brown 
+  MinimapIcon 1 Brown Circle
+
+Show
+  Class == "Stackable Currency"
+  BaseType == "Distilled Despair" "Distilled Disgust" "Distilled Envy" "Distilled Paranoia"
+  Rarity >= "Normal"
+  PlayEffect Orange 
+  MinimapIcon 2 Orange Circle
+
+Show
+  Class == "Stackable Currency"
+  BaseType == "Distilled Greed" "Distilled Guilt" "Distilled Ire" "Simulacrum Splinter"
+  Rarity >= "Normal"
+  PlayEffect Yellow 
+  MinimapIcon 2 Yellow Circle
+
+#######################################################
+##### Essences
+#######################################################
+
+Show
+  Class == "Stackable Currency"
+  BaseType == "Greater Essence of Haste"
+  Rarity >= "Normal"
+  PlayEffect Purple 
+  MinimapIcon 0 Purple Circle
+
+Show
+  Class == "Stackable Currency"
+  BaseType == "Greater Essence of the Mind" "Greater Essence of Torment" "Greater Essence of Electricity" "Greater Essence of Ruin" "Greater Essence of Sorcery" "Greater Essence of the Infinite"
+  Rarity >= "Normal"
+  PlayEffect Brown 
+  MinimapIcon 1 Brown Circle
+
+Show
+  Class == "Stackable Currency"
+  BaseType == "Greater Essence of the Body" "Greater Essence of Enhancement" "Greater Essence of Flames" "Greater Essence of Ice" "Greater Essence of Battle"
+  Rarity >= "Normal"
+  PlayEffect Orange 
+  MinimapIcon 2 Orange Circle
+
+Show
+  Class == "Stackable Currency"
+  BaseType == "Essence of Torment" "Essence of Electricity" "Essence of Ruin" "Essence of Battle" "Essence of Sorcery" "Essence of Haste"
+  Rarity >= "Normal"
+  PlayEffect Yellow 
+  MinimapIcon 2 Yellow Circle
+
+Show
+  Class == "Stackable Currency"
+  BaseType == "Essence of the Body" "Essence of the Mind" "Essence of Enhancement" "Essence of Flames" "Essence of Ice" "Essence of the Infinite"
+  Rarity >= "Normal"
+  PlayEffect White 
+  MinimapIcon 2 White Circle
+
+#######################################################
+##### Omens
+#######################################################
+
+Show
+  Class == "Omen"
+  BaseType == "Omen of Whittling" "Omen of Sinistral Erasure" "Omen of Dextral Erasure" "Omen of Sinistral Annulment" "Omen of Dextral Annulment"
+  Rarity >= "Normal"
+  PlayEffect Purple 
+  MinimapIcon 0 Purple Circle
+
+Show
+  Class == "Omen"
+  BaseType == "Omen of Amelioration" "Omen of Corruption"
+  Rarity >= "Normal"
+  PlayEffect Brown 
+  MinimapIcon 1 Brown Circle
+
+Show
+  Class == "Omen"
+  BaseType == "Omen of Resurgence" "Omen of Sinistral Alchemy" "Omen of Sinistral Exaltation" "Omen of Greater Annulment"
+  Rarity >= "Normal"
+  PlayEffect Orange 
+  MinimapIcon 2 Orange Circle
+
+Show
+  Class == "Omen"
+  BaseType == "Omen of Refreshment" "Omen of Dextral Alchemy" "Omen of Sinistral Coronation" "Omen of Dextral Coronation" "Omen of Greater Exaltation" "Omen of Dextral Exaltation"
+  Rarity >= "Normal"
+  PlayEffect Yellow 
+  MinimapIcon 2 Yellow Circle
+
+#######################################################
+##### Soul Cores
+#######################################################
+
+Show
+  Class == "Socketable"
+  BaseType == "Soul Core of Azcapa"
+  Rarity >= "Normal"
+  PlayEffect Purple 
+  MinimapIcon 0 Purple Circle
+
+Show
+  Class == "Socketable"
+  BaseType == "Soul Core of Zalatl"
+  Rarity >= "Normal"
+  PlayEffect Brown 
+  MinimapIcon 1 Brown Circle
+
+Show
+  Class == "Socketable"
+  BaseType == "Soul Core of Tacati" "Soul Core of Opiloti" "Soul Core of Jiquani" "Soul Core of Citaqualotl" "Soul Core of Puhuarte" "Soul Core of Tzamoto" "Soul Core of Xopec" "Soul Core of Topotante" "Soul Core of Quipolatl" "Soul Core of Ticaba"
+  Rarity >= "Normal"
+  PlayEffect Orange 
+  MinimapIcon 2 Orange Circle
+
+Show
+  Class == "Socketable"
+  BaseType == "Soul Core of Atmohua" "Soul Core of Cholotl" "Soul Core of Zantipi"
+  Rarity >= "Normal"
+  PlayEffect Yellow 
+  MinimapIcon 2 Yellow Circle
+
+#######################################################
+##### Expedition
+#######################################################
+
+Show
+  Class == "Expedition Logbooks"
+  BaseType == "Expedition Logbook"
+  Rarity >= "Normal"
+  PlayEffect Brown 
+  MinimapIcon 1 Brown Circle
+
+Show
+  Class == "Stackable Currency"
+  BaseType == "Exotic Coinage"
+  Rarity >= "Normal"
+  PlayEffect Yellow 
+  MinimapIcon 2 Yellow Circle
+
+Show
+  Class == "Stackable Currency"
+  BaseType == "Broken Circle Artifact" "Black Scythe Artifact" "Order Artifact" "Sun Artifact"
+  Rarity >= "Normal"
+  PlayEffect White 
+  MinimapIcon 2 White Circle
+
+#######################################################
+##### Breach
+#######################################################
+
+Show
+  Class == "Stackable Currency"
+  BaseType == "Adaptive Catalyst"
+  Rarity >= "Normal"
+  PlayEffect Yellow 
+  MinimapIcon 2 Yellow Circle
+
+Show
+  Class == "Stackable Currency"
+  BaseType == "Flesh Catalyst" "Neural Catalyst" "Carapace Catalyst" "Uul-Netol's Catalyst" "Tul's Catalyst" "Esh's Catalyst" "Chayula's Catalyst" "Reaver Catalyst" "Sibilant Catalyst" "Skittering Catalyst" "Breach Splinter"
+  Rarity >= "Normal"
+  PlayEffect White 
+  MinimapIcon 2 White Circle
+
+#######################################################
+##### Tablets
+#######################################################
+
+Show
+  Class == "Tablet"
+  BaseType == "Breach Precursor Tablet" "Expedition Precursor Tablet" "Delirium Precursor Tablet" "Ritual Precursor Tablet" "Precursor Tablet"
+  Rarity >= "Normal"
+  PlayEffect Yellow 
+  MinimapIcon 2 Yellow Circle
+
+#######################################################
+##### Trials
+#######################################################
+
+Show
+  Class == "Trial Coins"
+  BaseType == "Djinn Barya"
+  Rarity >= "Normal"
+  PlayEffect White 
+  MinimapIcon 2 White Circle
+
+Show
+  Class == "Inscribed Ultimatum"
+  BaseType == "Inscribed Ultimatum"
+  Rarity >= "Normal"
+  PlayEffect White 
+  MinimapIcon 2 White Circle
+
+#######################################################
+##### Custom Rules
+#######################################################
+
+
+
+#######################################################
+##### Filter Configuration
+#######################################################
+# Version: 9.43
+# Export date: 2025-01-11T06:51:46.257Z
+#######################################################
+# [[Config Start]]
+# {
+#   "hideLifeFlasks": true,
+#   "hideLifeFlasksQuality": 10,
+#   "hideLifeFlasksBaseTypeExceptions": [
+#     "None"
+#   ],
+#   "hideManaFlasks": true,
+#   "hideManaFlasksQuality": null,
+#   "hideManaFlasksBaseTypeExceptions": [
+#     "None"
+#   ],
+#   "hideCharms": true,
+#   "hideCharmsQuality": 1,
+#   "hideCharmsBaseTypeExceptions": [
+#     "Thawing Charm",
+#     "Amethyst Charm",
+#     "Golden Charm"
+#   ],
+#   "hideScrolls": true,
+#   "hideRings": true,
+#   "hideRingsOfRarity": "Normal",
+#   "hideRingsBaseTypeExceptions": [
+#     "Gold Ring",
+#     "Prismatic Ring",
+#     "Amethyst Ring"
+#   ],
+#   "hideAmulets": true,
+#   "hideAmuletsOfRarity": "Normal",
+#   "hideAmuletsBaseTypeExceptions": [
+#     "Gold Amulet",
+#     "Stellar Amulet"
+#   ],
+#   "hideBelts": true,
+#   "hideBeltsOfRarity": "Normal",
+#   "hideBeltsBaseTypeExceptions": [
+#     "Golden Obi",
+#     "Utility Belt"
+#   ],
+#   "hideGold": true,
+#   "hideGoldLowerThan": 50,
+#   "hideRunes": false,
+#   "hideRunesExceptions": [
+#     "None"
+#   ],
+#   "hideCurrency": true,
+#   "hideCurrencyTypes": [
+#     "Transmutation Shard",
+#     "Artificer's Shard"
+#   ],
+#   "highlightRareJewellery": true,
+#   "highlightUniques": true,
+#   "highlightUniquesType": "All",
+#   "highlightChanceBases": true,
+#   "highlightChanceBasesType": "Highlight excellent, show good",
+#   "highlightJewels": true,
+#   "highlightJewelsRarity": "Normal",
+#   "highlightBreachRings": true,
+#   "highlightBreachRingsRarity": "Normal",
+#   "highlightTrialItems": true,
+#   "hideGearByRarity": true,
+#   "hideGearOfRarity": "Magic",
+#   "hideGearByBaseTypeTier": false,
+#   "hideGearOfBaseTypeTier": "Regular",
+#   "hideGearByItemLevel": false,
+#   "hideGearBelowItemLevel": 81,
+#   "showSocketedGear": true,
+#   "showSocketedGearType": "TwoOrMoreSockets",
+#   "showQualityMartialWeapons": true,
+#   "showQualityMartialWeaponsMinQuality": 1,
+#   "showQualityArcaneWeapons": true,
+#   "showQualityArcaneWeaponsMinQuality": 1,
+#   "showQualityArmour": true,
+#   "showQualityArmourMinQuality": 1,
+#   "weaponFilters": [],
+#   "armourFilters": [],
+#   "dynamicWaystones": false,
+#   "dynamicWaystonesStrict": false,
+#   "dynamicWaystonesLevel": null,
+#   "dynamicSkillGems": false,
+#   "dynamicSkillGemsLevel": null,
+#   "cosmeticRemoveAllHighlights": false,
+#   "cosmeticRemoveAllMinimapIcons": false,
+#   "cosmeticTopCurrencyLabels": false,
+#   "cosmeticTopCurrencyLabelsPurpleSize": 45,
+#   "cosmeticTopCurrencyLabelsBrownSize": 41,
+#   "cosmeticTopCurrencyAlertSounds": true,
+#   "cosmeticTopCurrencyAlertSoundPurpleSound": 6,
+#   "cosmeticTopCurrencyAlertSoundPurpleVolume": 300,
+#   "cosmeticTopCurrencyAlertSoundBrownSound": 2,
+#   "cosmeticTopCurrencyAlertSoundBrownVolume": 200,
+#   "customRules": [],
+#   "customCosmeticRules": [],
+#   "tierCosmetics": [
+#     {
+#       "order": 0,
+#       "custom": false,
+#       "name": "Purple",
+#       "tier": "S",
+#       "label": "> 100 ex",
+#       "hasChanges": false,
+#       "show": true,
+#       "options": {
+#         "minimapIcon": true,
+#         "minimapIconSize": 0,
+#         "minimapIconColor": "Purple",
+#         "minimapIconShape": "Circle",
+#         "playEffect": true,
+#         "playEffectColor": "Purple",
+#         "playEffectTemp": false,
+#         "backgroundColor": null,
+#         "borderColor": null,
+#         "textColor": null,
+#         "fontSize": null,
+#         "alertSound": false,
+#         "alertSoundSound": 2,
+#         "alertSoundVolume": 200,
+#         "disableDropSound": false,
+#         "alertSoundPositional": false,
+#         "enableDropSound": false,
+#         "disableDropSoundIfAlertSound": false,
+#         "enableDropSoundIfAlertSound": false,
+#         "customAlertSound": null
+#       }
+#     },
+#     {
+#       "order": 1,
+#       "custom": false,
+#       "name": "Brown",
+#       "tier": "A",
+#       "label": "> 20 ex",
+#       "hasChanges": false,
+#       "show": true,
+#       "options": {
+#         "minimapIcon": true,
+#         "minimapIconSize": 1,
+#         "minimapIconColor": "Brown",
+#         "minimapIconShape": "Circle",
+#         "playEffect": true,
+#         "playEffectColor": "Brown",
+#         "playEffectTemp": false,
+#         "backgroundColor": null,
+#         "borderColor": null,
+#         "textColor": null,
+#         "fontSize": null,
+#         "alertSound": false,
+#         "alertSoundSound": 2,
+#         "alertSoundVolume": 200,
+#         "disableDropSound": false,
+#         "alertSoundPositional": false,
+#         "enableDropSound": false,
+#         "disableDropSoundIfAlertSound": false,
+#         "enableDropSoundIfAlertSound": false,
+#         "customAlertSound": null
+#       }
+#     },
+#     {
+#       "order": 2,
+#       "custom": false,
+#       "name": "Orange",
+#       "tier": "B",
+#       "label": "> 3 ex",
+#       "hasChanges": false,
+#       "show": true,
+#       "options": {
+#         "minimapIcon": true,
+#         "minimapIconSize": 2,
+#         "minimapIconColor": "Orange",
+#         "minimapIconShape": "Circle",
+#         "playEffect": true,
+#         "playEffectColor": "Orange",
+#         "playEffectTemp": false,
+#         "backgroundColor": null,
+#         "borderColor": null,
+#         "textColor": null,
+#         "fontSize": null,
+#         "alertSound": false,
+#         "alertSoundSound": 2,
+#         "alertSoundVolume": 200,
+#         "disableDropSound": false,
+#         "alertSoundPositional": false,
+#         "enableDropSound": false,
+#         "disableDropSoundIfAlertSound": false,
+#         "enableDropSoundIfAlertSound": false,
+#         "customAlertSound": null
+#       }
+#     },
+#     {
+#       "order": 3,
+#       "custom": false,
+#       "name": "Yellow",
+#       "tier": "C",
+#       "label": "~ 1 ex",
+#       "hasChanges": false,
+#       "show": true,
+#       "options": {
+#         "minimapIcon": true,
+#         "minimapIconSize": 2,
+#         "minimapIconColor": "Yellow",
+#         "minimapIconShape": "Circle",
+#         "playEffect": true,
+#         "playEffectColor": "Yellow",
+#         "playEffectTemp": false,
+#         "backgroundColor": null,
+#         "borderColor": null,
+#         "textColor": null,
+#         "fontSize": null,
+#         "alertSound": false,
+#         "alertSoundSound": 2,
+#         "alertSoundVolume": 200,
+#         "disableDropSound": false,
+#         "alertSoundPositional": false,
+#         "enableDropSound": false,
+#         "disableDropSoundIfAlertSound": false,
+#         "enableDropSoundIfAlertSound": false,
+#         "customAlertSound": null
+#       }
+#     },
+#     {
+#       "order": 4,
+#       "custom": false,
+#       "name": "White",
+#       "tier": "D",
+#       "label": "< 0.5 ex",
+#       "hasChanges": false,
+#       "show": true,
+#       "options": {
+#         "minimapIcon": true,
+#         "minimapIconSize": 2,
+#         "minimapIconColor": "White",
+#         "minimapIconShape": "Circle",
+#         "playEffect": true,
+#         "playEffectColor": "White",
+#         "playEffectTemp": false,
+#         "backgroundColor": null,
+#         "borderColor": null,
+#         "textColor": null,
+#         "fontSize": null,
+#         "alertSound": false,
+#         "alertSoundSound": 2,
+#         "alertSoundVolume": 200,
+#         "disableDropSound": false,
+#         "alertSoundPositional": false,
+#         "enableDropSound": false,
+#         "disableDropSoundIfAlertSound": false,
+#         "enableDropSoundIfAlertSound": false,
+#         "customAlertSound": null
+#       }
+#     },
+#     {
+#       "order": 5,
+#       "custom": false,
+#       "name": "Shown",
+#       "tier": "E",
+#       "label": "< 0.1 ex",
+#       "hasChanges": false,
+#       "show": true,
+#       "options": {
+#         "minimapIcon": false,
+#         "minimapIconSize": 2,
+#         "minimapIconColor": "White",
+#         "minimapIconShape": "Circle",
+#         "playEffect": false,
+#         "playEffectColor": "White",
+#         "playEffectTemp": false,
+#         "backgroundColor": null,
+#         "borderColor": null,
+#         "textColor": null,
+#         "fontSize": null,
+#         "alertSound": false,
+#         "alertSoundSound": 2,
+#         "alertSoundVolume": 200,
+#         "disableDropSound": false,
+#         "alertSoundPositional": false,
+#         "enableDropSound": false,
+#         "disableDropSoundIfAlertSound": false,
+#         "enableDropSoundIfAlertSound": false,
+#         "customAlertSound": null
+#       }
+#     },
+#     {
+#       "order": 6,
+#       "custom": false,
+#       "name": "Hidden",
+#       "tier": "F",
+#       "label": "< 0.01 ex",
+#       "hasChanges": false,
+#       "show": false,
+#       "options": {
+#         "minimapIcon": false,
+#         "minimapIconSize": 2,
+#         "minimapIconColor": "White",
+#         "minimapIconShape": "Circle",
+#         "playEffect": false,
+#         "playEffectColor": "White",
+#         "playEffectTemp": false,
+#         "backgroundColor": null,
+#         "borderColor": null,
+#         "textColor": null,
+#         "fontSize": null,
+#         "alertSound": false,
+#         "alertSoundSound": 2,
+#         "alertSoundVolume": 200,
+#         "disableDropSound": false,
+#         "alertSoundPositional": false,
+#         "enableDropSound": false,
+#         "disableDropSoundIfAlertSound": false,
+#         "enableDropSoundIfAlertSound": false,
+#         "customAlertSound": null
+#       }
+#     }
+#   ],
+#   "freeRulesTop": null,
+#   "freeRulesBottom": null
+# }
+# [[Config End]]
+#######################################################
