@@ -1,2 +1,6 @@
-爪
-Class:"One Hand Swords",BaseType:"Charan's Sword",
+#type#Class#BaseType#value#note#
+#==================地图项，value:1最高，5最低==================
+地图#Waystones#Waystone (Tier 16)#1#高级地图#
+地图#Waystones#Waystone (Tier 15) Waystone (Tier 14) Waystone (Tier 13) Waystone (Tier 12) Waystone (Tier 11)#1#红图#
+#地图#Waystones#Waystone (Tier 1)#1#黄图#
+#地图#Waystones#Waystone (Tier 16)#1#白图#
